@@ -1,7 +1,7 @@
-{ 
+{
   "name": "apples-n-oranges",
   "collector": "extensibility:pluginDef/safeway:fruitbasketPluginDef",
   "content": {
-    "fruits": {"apple": 4, "oranges":  9}
+    "fruits": {"apples": 4, "oranges":  9}
   }
 }

@@ -2,6 +2,6 @@
   "name": "apples-n-pears",
   "collector": "extensibility:pluginDef/safeway:fruitbasketPluginDef",
   "content": {
-    "fruits": {"apple": 4, "pears":  3}
+    "fruits": {"apples": 4, "pears":  3}
   }
 }
