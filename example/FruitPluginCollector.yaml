@@ -1,8 +1,8 @@
 name: FruitCollector
-query: ${ $import('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/QueryForPlugins.json') }
+plugins: ${ $import('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/QueryForPlugins.json') }
 collected: |
   ${
-    $reduce(query.content.fruits, function($a,$i){(
+    $reduce(plugins.content.fruits, function($a,$i){(
         $a~>|$|{'apples':$.apples+$i.apples}|
         ~>|$|{'oranges':$.oranges+$i.oranges}|
         ~>|$|{'pears':$.pears+$i.pears}|
