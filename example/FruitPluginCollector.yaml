@@ -3,7 +3,7 @@
   "query": "${ $fetch('https://raw.githubusercontent.com/geoffhendrey/orion-x/main/example/QueryForPlugins.json').json() }",
   "collected": |
     ${
-      $reduce(query.pluginContent, function($a,$i){(
+      $reduce(query, function($a,$i){(
           $a~>|$|{'apples':$.apples+$i.apples}|
           ~>|$|{'oranges':$.oranges+$i.oranges}|
           ~>|$|{'pears':$.pears+$i.pears}|
