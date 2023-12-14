@@ -1,0 +1,4 @@
+{
+  "fruits": "${$import(''https://raw.githubusercontent.com/geoffhendrey/orion-x/main/src/FruitPluginCollector.yaml'')}",
+  "fruitBasket": "@QUERY ${ {'contents': fruits.collected}  }"
+}
