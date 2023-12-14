@@ -1,5 +1,4 @@
 ```json
-GHENDREY-M-NWK4:orion-x ghendrey$ stated
 > .open
 1: FruitBasket.json
 2: FruitPlugin1.json
@@ -16,10 +15,10 @@ Enter the number of the file to open (or type "abort" to cancel): 1
 {
   "fruits": {
     "name": "FruitCollector",
-    "query": [
+    "plugins": [
       {
         "name": "apples-n-pears",
-        "collector": "extensibility:pluginDef/safeway:fruitbasketPluginDef",
+        "collector": "extensibility:pluginDef/safeway:FruitCollector",
         "content": {
           "fruits": {
             "apples": 4,
@@ -29,7 +28,7 @@ Enter the number of the file to open (or type "abort" to cancel): 1
       },
       {
         "name": "apples-n-oranges",
-        "collector": "extensibility:pluginDef/safeway:fruitbasketPluginDef",
+        "collector": "extensibility:pluginDef/safeway:FruitCollector",
         "content": {
           "fruits": {
             "apples": 4,
