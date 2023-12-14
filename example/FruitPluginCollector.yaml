@@ -1,6 +1,6 @@
 {
   "name": "fruitbasketPluginDef",
-  "query": "${ $fetch('https://raw.githubusercontent.com/geoffhendrey/orion-x/main/example/queryForPlugins.json').json() }",
+  "query": "${ $fetch('https://raw.githubusercontent.com/geoffhendrey/orion-x/main/example/QueryForPlugins.json').json() }",
   "collected": |
     ${
       $reduce(query.pluginContent, function($a,$i){(
