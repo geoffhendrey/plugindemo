@@ -1,4 +1,4 @@
 {
   "fruits": "${$import('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/FruitPluginCollector.yaml')}",
-  "fruitBasket": "@QUERY ${ {'contents': fruits.collected}  }"
+  "fruitBasket": "${ {'contents': fruits.collected}  }"
 }
