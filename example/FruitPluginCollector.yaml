@@ -1,9 +1,9 @@
 {
-  "name": "fruitbasketPluginDef",
-  "query": "${ $fetch('https://raw.githubusercontent.com/geoffhendrey/orion-x/main/example/QueryForPlugins.json').json() }",
+  "name": "FruitCollector",
+  "query": "${ $fetch('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/QueryForPlugins.json').json() }",
   "collected": |
     ${
-      $reduce(query, function($a,$i){(
+      $reduce(query.content.fruits, function($a,$i){(
           $a~>|$|{'apples':$.apples+$i.apples}|
           ~>|$|{'oranges':$.oranges+$i.oranges}|
           ~>|$|{'pears':$.pears+$i.pears}|
