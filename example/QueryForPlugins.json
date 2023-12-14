@@ -1,4 +1,4 @@
 [
-  "${$fetch('https://raw.githubusercontent.com/geoffhendrey/plugindemo/60be1bcc9e0017d0f05f8a666cb924fda69d5db3/example/FruitPlugin1.json).json()}",
-  "${$fetch('https://raw.githubusercontent.com/geoffhendrey/plugindemo/60be1bcc9e0017d0f05f8a666cb924fda69d5db3/example/FruitPlugin2.json').json()}"
+  "${$fetch('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/FruitPlugin1.json').json()}",
+  "${$fetch('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/FruitPlugin2.json').json()}"
 ]
