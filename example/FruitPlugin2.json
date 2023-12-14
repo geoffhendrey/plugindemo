@@ -1,4 +1,4 @@
-{
+{ 
   "name": "apples-n-oranges",
   "collector": "extensibility:pluginDef/safeway:fruitbasketPluginDef",
   "content": {
