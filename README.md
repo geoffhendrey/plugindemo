@@ -1,4 +1,4 @@
-This repo shows how we can use Stated templates to pull in and merge plugins. It uses a "fake" query for plugins, but this would be replaced by a real REST query 
+This repo shows how we can use Stated templates to pull in and merge plugins. It uses a "fake" query for plugins, but this would be replaced by a real REST query. The REPL session below shows opening FruitBasket.json, which is a stated template evaluated by the REPL. When I type the `.out` command it shows that the plugins have been loaded and a custom merge operation is performed to combine the fruitbaskets from the plugins. Follow the flow by opening FruitBasket.json and going from there. FruitBasket.json is an example of a consumer of plugins.
 
 ```json
 > .open
