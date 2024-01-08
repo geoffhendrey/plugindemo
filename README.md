@@ -1,3 +1,5 @@
+This repo shows how we can use Stated templates to pull in and merge plugins. It uses a "fake" query for plugins, but this would be replaced by a real REST query 
+
 ```json
 > .open
 1: FruitBasket.json
