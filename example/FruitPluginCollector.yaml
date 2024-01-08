@@ -1,4 +1,5 @@
 name: FruitCollector
+#the next line simulates a query to get all subscribed plugins
 plugins: ${ $import('https://raw.githubusercontent.com/geoffhendrey/plugindemo/main/example/QueryForPlugins.json') }
 collected: |
   ${
